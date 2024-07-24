@@ -50,7 +50,7 @@ const ProjectCard=({index,name,description,tags,image,source_code_link,website_l
           </h3>
           <p className='mt-2 max-h-[100px] text-secondary text-[14px]'>{description}</p>
         </div>
-        <div className='mt-8 rounded-xl p-1 flex items-center justify-evenly flex-wrap gap-2'>
+        <div className='md:mt-8 mt-16 rounded-xl p-1 flex items-center justify-evenly flex-wrap gap-2'>
           {tags.map((tag)=>{
             if(tag.name==="react"){
               return (<ReactSvg />)
