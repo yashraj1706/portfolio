@@ -76,7 +76,7 @@ const Footer=()=>{
                 <p className="md:text-base
                 md:
                 text-center
-                inline-flex   w-full mt-7 text-sm md:font-normal font-light">
+                inline-flex  ml-10 w-full mt-7 text-sm md:font-normal font-light">
                 Copyright © 2024 Yash Raj Singh
                 </p>
                 <div className='w-full gap-3 mr-3 md:justify-end

@@ -69,7 +69,7 @@ import {
       icon: mobile,
     },
     {
-      title: "C++ Algorithmic Programmer",
+      title: "C++ Programmer",
       icon: creator,
     },
   ];
