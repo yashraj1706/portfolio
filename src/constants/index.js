@@ -115,7 +115,7 @@ import {
       company_name: "EduSkills",
       icon: eduskills,
       iconBg: "#383E56",
-      date: "July 2020 - Present",
+      date: "July 2024 - Present",
       points: [
         "Engaged in the development of mobile applications using Kotlin.",
         "Applied knowledge of app development to practical projects under the curriculum designed by Google's developers.",
@@ -127,7 +127,7 @@ import {
       company_name: "UiPath: KIIT",
       icon: uipath,
       iconBg: "#383E56",
-      date: "Dec 2022 - Present",
+      date: "Dec 2023 - Present",
       points: [
         "Contributed to the development of the UiPath Society's website from inception using React.js and Tailwind CSS.",
         "Demonstrated proficiency in version control with Git and GitHub.",
