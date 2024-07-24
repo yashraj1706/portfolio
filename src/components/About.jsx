@@ -75,7 +75,7 @@ const About = () => {
        variants={fadeIn("","",0.1,1)}
        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
        >
-      Hello! I'm Yash Raj Singh, a passionate web developer from Kashipur, Uttarakhand, India. Currently pursuing a B.Tech in Computer Science Engineering from KIIT University, I have a strong foundation in Programming, Web development and App development.<br/><br/>
+      Hello! I'm Yash Raj Singh, a passionate web developer from Kashipur, Uttarakhand, India. Currently pursuing a B.Tech degree in Computer Science Engineering from KIIT University, I have a strong foundation in Programming, Web development and App development.<br/><br/>
 
 With a diverse skill set that includes React, JavaScript, Java, and more. My experience spans across creating Responsive Designs,Real-Time Communication apps, Database Management, AI integration, Web-Based Games, Mobile Apps and Automation Tools. I have successfully contributed to various projects and hackathons, showcasing my ability to deliver dynamic and user-centric solutions.<br/><br/>
 In addition to my technical skills, I bring a deep understanding of operating systems, data structures, algorithms, and computer networks. <br/>
