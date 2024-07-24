@@ -76,17 +76,10 @@ import {
   
   const technologies = [
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
       name: "TypeScript",
       icon: typescript,
     },
+    
     {
       name: "Node JS",
       icon: nodejs,
@@ -96,16 +89,24 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
     
     {
       name: "MongoDB",
       icon: mongodb,
-    },
+    },{ name: "OpenAI API", icon: openai },
     { name: "Socket.IO", icon: socketio },
     { name: "Next.js", icon: nextjs },
     { name: "Framer Motion", icon: framerMotion },
-    { name: "OpenAI API", icon: openai },
-
+    
+    
   ];
   
   const experiences = [

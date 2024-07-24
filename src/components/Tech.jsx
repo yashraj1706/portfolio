@@ -8,6 +8,8 @@ import { styles } from '../styles'
 
 
 const Tech = () => {
+  const width=window.innerWidth
+  console.log(width)
   return (
     <div className='flex min-h-screen flex-row flex-wrap justify-center gap-16'>
       <motion.div className='w-full' variants={textVariant()}>
@@ -15,11 +17,15 @@ const Tech = () => {
         <h2 className={`${styles.sectionHeadText}`}>Tech Stack.</h2>
       </motion.div>
       {
-        technologies.map((tech,index)=>(
-          <div className='w-28 h-28' key={tech.name}>
+        technologies.map((tech,index)=>{
+          if(index<4 || width>500){
+            return <div className='w-28 h-28' key={tech.name}>
             <BallCanvas icon={tech.icon} />
-          </div>
-        ))
+            </div> 
+          }else{
+            return <div className='w-0 h-0'></div>
+          }
+        })
       }
     </div>
   )
