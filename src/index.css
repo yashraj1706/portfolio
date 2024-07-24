@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  overflow-x: clip;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -200,6 +204,7 @@
   animation:expbg 4s linear infinite;
   background-size: 400%;
 }
+
 
 @keyframes expbg{
   0%{
