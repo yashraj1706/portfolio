@@ -293,7 +293,7 @@ import {
       ],
       image: blogApp,
       website_link:'https://inscribe-vert.vercel.app/',
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/yashraj1706/Inscribe",
     },{
       name: "Video Call App",
       description:
@@ -317,7 +317,7 @@ import {
         },
       ],
       image: VCApp,
-      website_link:'',
+      website_link:'https://github.com/',
       source_code_link: "https://github.com/",
     }
   ];
