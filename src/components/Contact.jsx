@@ -105,11 +105,12 @@ const Contact = () => {
        >
         Thank you for visiting my portfolio.<br/>If you have any questions, opportunities or just want to chat, please feel free to contact me!
        </motion.p>
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
+    <div className='xl:mt-12 relative xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
+        <span className='hash-span text-[1px]' id='contactform'>&nbsp;</span>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -166,6 +167,17 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      <div className="absolute md:hidden xs:bottom-10 top-72 w-full flex justify-center items-center">
+        <a href="#contactform">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.div
+              animate={{ y: [0, 24, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity, repeatType: "loop" }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
+            />
+          </div>
+        </a>
+      </div>
       <Toaster
         position="top-center"
         toastOptions={{
