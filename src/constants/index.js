@@ -124,18 +124,6 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "UiPath: KIIT",
-      icon: uipath,
-      iconBg: "#383E56",
-      date: "Dec 2023 - Present",
-      points: [
-        "Contributed to the development of the UiPath Society's website from inception using React.js and Tailwind CSS.",
-        "Demonstrated proficiency in version control with Git and GitHub.",
-        "Enhanced the website's functionality and user experience through collaborative development.",
-      ],
-    },
-    {
-      title: "Web Developer",
       company_name: "Coding Ninjas: KIIT",
       icon: codingNinjas,
       iconBg: "#E6DEDD",
@@ -144,6 +132,18 @@ import {
         "Conducted technical interviews to assess candidates' skills and problem-solving abilities.",
         "Provided feedback and recommendations based on interview performance.",
         "Contributed to the recruitment and selection process for technical roles."
+      ],
+    },
+    {
+      title: "Web Developer",
+      company_name: "UiPath: KIIT",
+      icon: uipath,
+      iconBg: "#383E56",
+      date: "Dec 2023 - Aug 2024",
+      points: [
+        "Contributed to the development of the UiPath Society's website from inception using React.js and Tailwind CSS.",
+        "Demonstrated proficiency in version control with Git and GitHub.",
+        "Enhanced the website's functionality and user experience through collaborative development.",
       ],
     },
     {
