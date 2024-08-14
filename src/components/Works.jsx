@@ -34,14 +34,14 @@ const ProjectCard=({index,name,description,tags,image,source_code_link,website_l
               className='w-[60%] h-[60%] hover:w-[90%] hover:h-[90%] duration-500'
               />
             </div>
-            <div
+            {/*<div
               onClick={()=> window.open(source_code_link,"_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img src={github} alt="github"
               className='w-[60%] h-[60%] hover:w-[100%] hover:h-[100%] duration-500 flex items-center'
               />
-            </div>
+            </div>*/}
           </div>
         </div>
         <div className='mt-5'>
