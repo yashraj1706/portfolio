@@ -56,7 +56,6 @@ const Contact = () => {
   const service=import.meta.env.VITE_EMAILJS_SERVICE_KEY;
   const user=import.meta.env.VITE_EMAILJS_USER_KEY;
   const template=import.meta.env.VITE_EMAILJS_TEMPLATE_KEY;
-  console.log(service, template, user);
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!validateForm()) {
