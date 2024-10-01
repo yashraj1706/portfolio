@@ -9,7 +9,7 @@ import { styles } from '../styles'
 
 const Tech = () => {
   const width=window.innerWidth
-  console.log(width)
+
   return (
     <div className='flex min-h-fit flex-row flex-wrap justify-center gap-16'>
       <motion.div className='w-full' variants={textVariant()}>
